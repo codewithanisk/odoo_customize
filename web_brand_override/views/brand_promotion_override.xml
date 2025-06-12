@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="brand_promotion_message" inherit_id="web.brand_promotion_message" priority="1000">
+        <xpath expr="." position="replace">
+            <t t-set="final_message">Powered by %s%s</t>
+        </xpath>
+    </template>
+</odoo>
